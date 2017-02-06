@@ -1,0 +1,90 @@
+body {
+    margin-top: 40px;
+    background: #0A0A0A;
+    text-align: left;
+    padding: 10px;
+}
+h2 {
+    color: #FFFFFF;
+}
+p {
+    color: #3BFC34;
+}
+a {
+    color: #65737E;
+    text-decoration: none;
+}
+select {
+    padding: 5px;
+    -webkit-appearance: button;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+    background-image: url(../images/select-arrow.png),
+        -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box {
+    text-align:center;
+}
+.bar {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+}
+.bar input#search{
+    width: 500px;
+    height: 50px;
+    background: #0B4275;
+    border: none;
+    font-size: 12pt;
+    float: left;
+    padding: 10px;
+    color: #3BFC34;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
+.bar input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+.bar input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;
+}
+.bar input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;
+}
+.bar input#search:-ms-input-placeholder {
+    color: #65737e;
+}
+.bar input#search:-ms-clear {
+    display: none;
+    width : 0;
+    height: 0;
+}
+.bar input#search:hover, .bar input#search:focus, .bar input#search:active {
+    outline:none;
+    background: #000000;
+}
+.bar .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
